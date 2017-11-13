@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "171883862377",
+    "firebase_url": "https://antibioticapp-a8cf8.firebaseio.com",
+    "project_id": "antibioticapp-a8cf8",
+    "storage_bucket": "antibioticapp-a8cf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171883862377:android:1ed8abf6c9dd7c9e",
+        "android_client_info": {
+          "package_name": "com.example.antibioticapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171883862377-a4j4c435h7oudqkke3bed8rfu0a88975.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrW2kJhBwi0dJx_n0MOzrLC9lYGcvfiw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

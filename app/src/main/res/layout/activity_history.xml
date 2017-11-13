@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/Title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#416691"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/toolbar_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ประวัติการทำแบบสอบถาม"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titlelistview"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/colorPrimaryDark"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="การวินิจฉัยครั้งนี้เป็นของคุณ :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/historyListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

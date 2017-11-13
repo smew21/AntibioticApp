@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/earthtoneblue">
+
+        <TextView
+            android:id="@+id/staffToolbarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="สำหรับ Staff"
+            android:textColor="@android:color/background_light"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="288dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="148dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/round_corner_rect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/panelBackground" />
+
+    <Button
+        android:id="@+id/staffProvider"
+        android:layout_width="172dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_button"
+        android:text="Provider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staffPatient" />
+
+    <Button
+        android:id="@+id/staffPatient"
+        android:layout_width="171dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_button"
+        android:text="Patient"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staffText" />
+
+    <TextView
+        android:id="@+id/staffText"
+        android:layout_width="182dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="SELECT ROLE:"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
